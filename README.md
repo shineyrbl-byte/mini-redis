@@ -92,14 +92,14 @@ The server follows a TCP client-server architecture.
 Values can contain spaces.
 
 ```text
-SET name Avisha Sharma
+SET name Avisha Srivastava
 GET name
 ```
 
 Response:
 
 ```text
-Avisha Sharma
+Avisha Srivastava
 ```
 
 The first token is interpreted as the command, the second as the key, and everything after the key is treated as the value.
@@ -166,7 +166,7 @@ Keys can be assigned a time-to-live using the `EXPIRE` command.
 Example:
 
 ```text
-SET name Avisha Sharma
+SET name Avisha Srivastava
 EXPIRE name 30
 ```
 
@@ -197,7 +197,7 @@ The server supports persistence through the `SAVE` command.
 Example:
 
 ```text
-SET name Avisha Sharma
+SET name Avisha Srivastava
 EXPIRE name 60
 SAVE
 ```
@@ -213,7 +213,7 @@ key|value|remaining_seconds
 For example:
 
 ```text
-name|Avisha Sharma|53
+name|Avisha Srivastava|53
 city|Mumbai|0
 ```
 
@@ -250,7 +250,7 @@ To define command boundaries, the server uses a newline-delimited protocol.
 For example:
 
 ```text
-SET name Avisha Sharma\n
+SET name Avisha Srivastava\n
 GET name\n
 PING\n
 ```
