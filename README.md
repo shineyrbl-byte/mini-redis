@@ -144,7 +144,7 @@ You can then send commands:
 
 ```text
 PING
-SET name Avisha Sharma
+SET name Avisha Srivastava
 GET name
 EXISTS name
 EXPIRE name 30
